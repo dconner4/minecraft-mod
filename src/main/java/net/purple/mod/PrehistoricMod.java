@@ -55,7 +55,7 @@ public final class PrehistoricMod {
     // Add the example block item to the building blocks tab
     private static void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.WOODENSPEAR);
+            event.accept(ModItems.WOODEN_SPEAR);
         }
     }
 
